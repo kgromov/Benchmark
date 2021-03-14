@@ -1,0 +1,111 @@
+# JMH version: 1.25.2
+# VM version: JDK 1.8.0_101, Java HotSpot(TM) 64-Bit Server VM, 25.101-b13
+# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Warmup: 3 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.home.samples.old.IntArrayBoxingBenchMark.arrayStream
+# Parameters: (length = 100)
+
+# Run progress: 0,00% complete, ETA 00:40:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,787 us/op
+# Warmup Iteration   2: 0,746 us/op
+# Warmup Iteration   3: 0,743 us/op
+Iteration   1: 0,790 us/op
+Iteration   2: 0,744 us/op
+Iteration   3: 0,751 us/op
+Iteration   4: 0,751 us/op
+Iteration   5: 0,779 us/op
+
+# Run progress: 3,33% complete, ETA 00:39:18
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,766 us/op
+# Warmup Iteration   2: 0,752 us/op
+# Warmup Iteration   3: 0,759 us/op
+Iteration   1: 0,782 us/op
+Iteration   2: 0,781 us/op
+Iteration   3: 0,815 us/op
+Iteration   4: 0,759 us/op
+Iteration   5: 0,761 us/op
+
+
+Result "com.home.samples.old.IntArrayBoxingBenchMark.arrayStream":
+  0,771 ±(99.9%) 0,033 us/op [Average]
+  (min, avg, max) = (0,744, 0,771, 0,815), stdev = 0,022
+  CI (99.9%): [0,738, 0,804] (assumes normal distribution)
+
+
+# JMH version: 1.25.2
+# VM version: JDK 1.8.0_101, Java HotSpot(TM) 64-Bit Server VM, 25.101-b13
+# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Warmup: 3 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.home.samples.old.IntArrayBoxingBenchMark.arrayStream
+# Parameters: (length = 1000)
+
+# Run progress: 6,67% complete, ETA 00:37:54
+# Fork: 1 of 2
+# Warmup Iteration   1: 7,860 us/op
+# Warmup Iteration   2: 7,049 us/op
+# Warmup Iteration   3: 7,102 us/op
+Iteration   1: 7,102 us/op
+Iteration   2: 7,111 us/op
+Iteration   3: 7,109 us/op
+Iteration   4: 7,157 us/op
+Iteration   5: 6,948 us/op
+
+# Run progress: 10,00% complete, ETA 00:36:33
+# Fork: 2 of 2
+# Warmup Iteration   1: 7,045 us/op
+# Warmup Iteration   2: 7,136 us/op
+# Warmup Iteration   3: 6,993 us/op
+Iteration   1: 7,028 us/op
+Iteration   2: 6,984 us/op
+Iteration   3: 6,921 us/op
+Iteration   4: 6,949 us/op
+Iteration   5: 7,013 us/op
+
+
+Result "com.home.samples.old.IntArrayBoxingBenchMark.arrayStream":
+  7,032 ±(99.9%) 0,125 us/op [Average]
+  (min, avg, max) = (6,921, 7,032, 7,157), stdev = 0,083
+  CI (99.9%): [6,907, 7,157] (assumes normal distribution)
+
+
+# JMH version: 1.25.2
+# VM version: JDK 1.8.0_101, Java HotSpot(TM) 64-Bit Server VM, 25.101-b13
+# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Warmup: 3 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.home.samples.old.IntArrayBoxingBenchMark.arrayStream
+# Parameters: (length = 10000)
+
+# Run progress: 13,33% complete, ETA 00:35:12
+# Fork: 1 of 2
+# Warmup Iteration   1: 72,741 us/op
+# Warmup Iteration   2: 85,902 us/op
+# Warmup Iteration   3: 71,515 us/op
+Iteration   1: 70,878 us/op
+Iteration   2: 69,319 us/op
+Iteration   3: 69,196 us/op
+Iteration   4: 69,979 us/op
+Iteration   5: 69,721 us/op
+
+# Run progress: 16,67% complete, ETA 00:33:50
+# Fork: 2 of 2
+# Warmup Iteration   1: 73,061 us/op
+# Warmup Iteration   2: 72,219 us/op
+# Warmup Iteration   3: 71,795 us/op
+Iteration   1: 

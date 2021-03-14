@@ -1,0 +1,9 @@
+Benchmark                                                 Mode  Cnt   Score    Error   Units
+EnumBenchMark.testEnumValuesToMapGet                      avgt   50  22,123 ±  1,397   ns/op
+EnumBenchMark.testEnumValuesToMapGet:·gc.alloc.rate       avgt   50  ≈ 10⁻⁴           MB/sec
+EnumBenchMark.testEnumValuesToMapGet:·gc.alloc.rate.norm  avgt   50  ≈ 10⁻⁵             B/op
+EnumBenchMark.testEnumValuesToMapGet:·gc.count            avgt   50     ≈ 0           counts
+EnumBenchMark.testValueOf                                 avgt   50  20,878 ±  1,129   ns/op
+EnumBenchMark.testValueOf:·gc.alloc.rate                  avgt   50  ≈ 10⁻⁴           MB/sec
+EnumBenchMark.testValueOf:·gc.alloc.rate.norm             avgt   50  ≈ 10⁻⁵             B/op
+EnumBenchMark.testValueOf:·gc.count                       avgt   50     ≈ 0           counts
