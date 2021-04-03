@@ -7,3 +7,13 @@ EnumBenchMark.testValueOf                                 avgt   50  20,878 ±  
 EnumBenchMark.testValueOf:·gc.alloc.rate                  avgt   50  ≈ 10⁻⁴           MB/sec
 EnumBenchMark.testValueOf:·gc.alloc.rate.norm             avgt   50  ≈ 10⁻⁵             B/op
 EnumBenchMark.testValueOf:·gc.count                       avgt   50     ≈ 0           counts
+
+Benchmark                                                 Mode  Cnt   Score    Error   Units
+EnumBenchMark.testEnumValuesToMapGet                      avgt   50  23,675 ±  2,017   ns/op
+EnumBenchMark.testEnumValuesToMapGet:·gc.alloc.rate       avgt   50  ≈ 10⁻⁴           MB/sec
+EnumBenchMark.testEnumValuesToMapGet:·gc.alloc.rate.norm  avgt   50  ≈ 10⁻⁵             B/op
+EnumBenchMark.testEnumValuesToMapGet:·gc.count            avgt   50     ≈ 0           counts
+EnumBenchMark.testValueOf                                 avgt   50  19,707 ±  0,331   ns/op
+EnumBenchMark.testValueOf:·gc.alloc.rate                  avgt   50  ≈ 10⁻⁴           MB/sec
+EnumBenchMark.testValueOf:·gc.alloc.rate.norm             avgt   50  ≈ 10⁻⁶             B/op
+EnumBenchMark.testValueOf:·gc.count                       avgt   50     ≈ 0           counts

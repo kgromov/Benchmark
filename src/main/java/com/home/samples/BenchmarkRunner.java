@@ -1,10 +1,6 @@
 package com.home.samples;
 
-import com.home.samples.collections.AddElementToTheEndBenchmark;
-import com.home.samples.collections.MapIterateBenchMark;
-import com.home.samples.old.EnumBenchMark;
-import com.home.samples.old.IntArrayBoxingBenchMark;
-import org.openjdk.jmh.profile.GCProfiler;
+import com.home.samples.old.SingularFindIndexBenchMark;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
@@ -17,8 +13,9 @@ public class BenchmarkRunner {
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
 //                .include(AddElementToTheEndBenchmark.class.getSimpleName())
-                .include(EnumBenchMark.class.getSimpleName())
-                .result("output/EnumBenchMark.txt")
+//                .include(EnumBenchMark.class.getSimpleName())
+                .include(SingularFindIndexBenchMark.class.getSimpleName())
+//                .result("output/EnumBenchMark.txt")
                 .build();
 
         new Runner(opt).run();
