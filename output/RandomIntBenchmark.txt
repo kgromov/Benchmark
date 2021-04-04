@@ -1,0 +1,5 @@
+JDK 11
+Benchmark                                            Mode  Cnt  Score    Error  Units
+RandomGenerationBenchmark.nextInt_random             avgt   10  0,129 ±  0,001  us/op
+RandomGenerationBenchmark.nextInt_randomSeed         avgt   10  0,050 ±  0,001  us/op
+RandomGenerationBenchmark.nextInt_threadLocalRandom  avgt   10  0,012 ±  0,001  us/op

@@ -1,6 +1,7 @@
 package com.home.samples;
 
 import com.home.samples.old.SingularFindIndexBenchMark;
+import com.home.samples.service.RandomGenerationBenchmark;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
@@ -14,7 +15,7 @@ public class BenchmarkRunner {
         Options opt = new OptionsBuilder()
 //                .include(AddElementToTheEndBenchmark.class.getSimpleName())
 //                .include(EnumBenchMark.class.getSimpleName())
-                .include(SingularFindIndexBenchMark.class.getSimpleName())
+                .include(RandomGenerationBenchmark.class.getSimpleName())
 //                .result("output/EnumBenchMark.txt")
                 .build();
 

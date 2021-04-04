@@ -1,0 +1,15 @@
+Benchmark                                                  (length)  Mode  Cnt    Score    Error  Units
+PluralFindIndexBenchMark.getIndexOfArray                         10  avgt   10    0,040 ±  0,062  us/op
+PluralFindIndexBenchMark.getIndexOfMap                           10  avgt   10    0,002 ±  0,001  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                     10  avgt   10    0,019 ±  0,028  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray        10  avgt   10    0,053 ±  0,081  us/op
+
+PluralFindIndexBenchMark.getIndexOfArray                        100  avgt   10    4,595 ±  1,344  us/op
+PluralFindIndexBenchMark.getIndexOfMap                          100  avgt   10    0,764 ±  0,101  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                    100  avgt   10    2,800 ±  0,372  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray       100  avgt   10    1,954 ±  0,153  us/op
+
+PluralFindIndexBenchMark.getIndexOfArray                       1000  avgt   10  220,328 ± 78,443  us/op
+PluralFindIndexBenchMark.getIndexOfMap                         1000  avgt   10    7,147 ±  2,605  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                   1000  avgt   10   19,575 ± 27,106  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray      1000  avgt   10   19,382 ± 10,460  us/op
