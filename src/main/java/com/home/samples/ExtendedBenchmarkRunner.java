@@ -14,16 +14,16 @@ import org.openjdk.jmh.runner.options.TimeValue;
 public class ExtendedBenchmarkRunner {
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
-//                .include(StringConcatenationBenchmark.class.getSimpleName())
-                .include(RandomGenerationBenchmark.class.getSimpleName())
+                .include(StringConcatenationBenchmark.class.getSimpleName())
+//                .include(RandomGenerationBenchmark.class.getSimpleName())
                 .warmupIterations(5)
                 .warmupTime(TimeValue.seconds(1))
                 .measurementIterations(5)
                 .measurementTime(TimeValue.seconds(10))
                 .forks(2) //0 makes debugging possible
                 .shouldFailOnError(true)
-                .resultFormat(ResultFormatType.JSON)
-                .result("output/benchmark.json")
+//                .resultFormat(ResultFormatType.JSON)
+//                .result("output/benchmark.json")
 				.shouldDoGC(false)
                 .jvmArgsAppend(
 //						"-Xint",
@@ -33,8 +33,8 @@ public class ExtendedBenchmarkRunner {
 //						"-XX:+PrintInlining",
 //						"-XX:+LogCompilation"
                 )
-                .addProfiler(GCProfiler.class)// memory and GC profiler
-                .addProfiler(HotspotMemoryProfiler.class)
+//                .addProfiler(GCProfiler.class)// memory and GC profiler
+//                .addProfiler(HotspotMemoryProfiler.class)
                 .build();
 
         new Runner(opt).run();

@@ -1,5 +1,11 @@
-JDK 11
+Windows7, JDK 11
 Benchmark                                            Mode  Cnt  Score    Error  Units
 RandomGenerationBenchmark.nextInt_random             avgt   10  0,129 ±  0,001  us/op
 RandomGenerationBenchmark.nextInt_randomSeed         avgt   10  0,050 ±  0,001  us/op
 RandomGenerationBenchmark.nextInt_threadLocalRandom  avgt   10  0,012 ±  0,001  us/op
+
+Ubuntu 18.04, JDK 11
+Benchmark                                            Mode  Cnt    Score   Error  Units
+RandomGenerationBenchmark.nextInt_random             avgt   10  139.487 ± 4.875  ns/op
+RandomGenerationBenchmark.nextInt_randomSeed         avgt   10   52.209 ± 1.321  ns/op
+RandomGenerationBenchmark.nextInt_threadLocalRandom  avgt   10   12.630 ± 0.723  ns/op

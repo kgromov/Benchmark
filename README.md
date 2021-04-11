@@ -10,5 +10,5 @@ new OptionsBuilder()
 ``` 
 And use 1 of two approaches:
 - site which parse .json - https://jmh.morethan.io/
-- gradle plugin - https://github.com/jzillmann/gradle-jmh-report (should be the same result; not tries yet)
+- gradle plugin - https://github.com/jzillmann/gradle-jmh-report
 

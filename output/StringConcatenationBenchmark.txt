@@ -35,3 +35,13 @@ StringConcatenationBenchmark.stringConcat_ConcatStreamCollectorsJoining         
 StringConcatenationBenchmark.stringConcat_ConcatStringPlus                           10              10  avgt   10   810,753 ±  55,692  ns/op
 StringConcatenationBenchmark.stringConcat_ConcatStringBuffer                         10              10  avgt   10   961,986 ±   5,972  ns/op
 StringConcatenationBenchmark.stringConcat_ConcatStringConcat                         10              10  avgt   10  1102,439 ±  39,014  ns/op
+
+Ubuntu 18.04 JDK 11
+Benchmark                                                                (stringLength)  (stringsCount)  Mode  Cnt     Score     Error  Units
+StringConcatenationBenchmark.stringConcat_ConcatStringBuilder                        10              10  avgt   10   491.824 ±   3.207  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringJoin                           10              10  avgt   10   560.905 ±   9.934  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringJoiner                         10              10  avgt   10   722.305 ±   7.555  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringBuffer                         10              10  avgt   10   752.946 ± 362.751  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringPlus                           10              10  avgt   10   761.810 ±  18.277  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStreamCollectorsJoining              10              10  avgt   10   777.407 ±  33.456  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringConcat                         10              10  avgt   10  1089.592 ±  33.715  ns/op
