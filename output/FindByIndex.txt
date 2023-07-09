@@ -13,3 +13,39 @@ PluralFindIndexBenchMark.getIndexOfArray                       1000  avgt   10  
 PluralFindIndexBenchMark.getIndexOfMap                         1000  avgt   10    7,147 ±  2,605  us/op
 PluralFindIndexBenchMark.getIndexSortedArray                   1000  avgt   10   19,575 ± 27,106  us/op
 PluralFindIndexBenchMark.getIndexSortedWithThresholdArray      1000  avgt   10   19,382 ± 10,460  us/op
+
+
+Windows 11, Gigabyte Aero XE5, Java 17
+Benchmark                                                  (length)  Mode  Cnt   Score    Error  Units
+PluralFindIndexBenchMark.getIndexOfArray                         10  avgt   10   0,004 ±  0,001  us/op
+PluralFindIndexBenchMark.getIndexOfMap                           10  avgt   10   0,013 ±  0,005  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                     10  avgt   10   0,037 ±  0,011  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray        10  avgt   10   0,008 ±  0,007  us/op
+
+PluralFindIndexBenchMark.getIndexOfArray                        100  avgt   10   0,086 ±  0,014  us/op
+PluralFindIndexBenchMark.getIndexOfMap                          100  avgt   10   0,119 ±  0,059  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                    100  avgt   10   0,179 ±  0,173  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray       100  avgt   10   0,242 ±  0,271  us/op
+
+PluralFindIndexBenchMark.getIndexOfArray                       1000  avgt   10  43,112 ± 16,573  us/op
+PluralFindIndexBenchMark.getIndexOfMap                         1000  avgt   10   0,248 ±  0,231  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                   1000  avgt   10   4,518 ±  0,470  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray      1000  avgt   10   3,332 ±  0,689  us/op
+
+
+MacOs Ventura 13 JDK 11 (MacBook Pro M1)
+Benchmark                                                  (length)  Mode  Cnt   Score    Error  Units
+PluralFindIndexBenchMark.getIndexOfArray                         10  avgt   10   0.003 ±  0.003  us/op
+PluralFindIndexBenchMark.getIndexOfMap                           10  avgt   10   0.004 ±  0.005  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                     10  avgt   10   0.012 ±  0.018  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray        10  avgt   10   0.019 ±  0.016  us/op
+
+PluralFindIndexBenchMark.getIndexOfArray                        100  avgt   10   0.098 ±  0.155  us/op
+PluralFindIndexBenchMark.getIndexOfMap                          100  avgt   10   0.137 ±  0.065  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                    100  avgt   10   0.328 ±  0.184  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray       100  avgt   10   0.171 ±  0.082  us/op
+
+PluralFindIndexBenchMark.getIndexOfArray                       1000  avgt   10  13.946 ± 18.023  us/op
+PluralFindIndexBenchMark.getIndexOfMap                         1000  avgt   10   0.593 ±  0.008  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                   1000  avgt   10   3.578 ±  2.662  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray      1000  avgt   10   3.387 ±  3.685  us/op

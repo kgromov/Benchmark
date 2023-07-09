@@ -45,3 +45,23 @@ StringConcatenationBenchmark.stringConcat_ConcatStringBuffer                    
 StringConcatenationBenchmark.stringConcat_ConcatStringPlus                           10              10  avgt   10   761.810 ±  18.277  ns/op
 StringConcatenationBenchmark.stringConcat_ConcatStreamCollectorsJoining              10              10  avgt   10   777.407 ±  33.456  ns/op
 StringConcatenationBenchmark.stringConcat_ConcatStringConcat                         10              10  avgt   10  1089.592 ±  33.715  ns/op
+
+Windows 11 JDK 17 (Gigabyte Area 16 XE5)
+Benchmark                                                                (stringLength)  (stringsCount)  Mode  Cnt    Score   Error  Units
+StringConcatenationBenchmark.stringConcat_ConcatStreamCollectorsJoining              10              10  avgt   10  187,371 ± 5,163  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringBuffer                         10              10  avgt   10   90,110 ± 1,700  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringBuilder                        10              10  avgt   10   84,405 ± 1,081  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringConcat                         10              10  avgt   10  228,599 ± 6,512  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringJoin                           10              10  avgt   10   97,305 ± 1,318  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringJoiner                         10              10  avgt   10  105,794 ± 3,613  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringPlus                           10              10  avgt   10  135,415 ± 4,995  ns/op
+
+MacOs Ventura 13 JDK 11 (MacBook Pro M1)
+Benchmark                                                                (stringLength)  (stringsCount)  Mode  Cnt    Score   Error  Units
+StringConcatenationBenchmark.stringConcat_ConcatStreamCollectorsJoining              10              10  avgt   10  119.031 ± 1.414  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringBuffer                         10              10  avgt   10   54.595 ± 0.260  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringBuilder                        10              10  avgt   10   55.136 ± 0.269  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringConcat                         10              10  avgt   10  157.778 ± 1.287  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringJoin                           10              10  avgt   10   76.657 ± 0.327  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringJoiner                         10              10  avgt   10   96.960 ± 3.255  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringPlus                           10              10  avgt   10  102.950 ± 0.682  ns/op
