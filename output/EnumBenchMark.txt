@@ -11,3 +11,8 @@ MacOs Ventura 13 JDK 11 (MacBook Pro M1)
 Benchmark                             Mode  Cnt  Score   Error  Units
 EnumBenchMark.testEnumValuesToMapGet  avgt   20  4.190 ± 0.387  ns/op
 EnumBenchMark.testValueOf             avgt   20  4.550 ± 0.008  ns/op
+
+Ubuntu 22.04.2 LTS JDK 11 (Lenovo ThinkPad T590)
+Benchmark                             Mode  Cnt   Score   Error  Units
+EnumBenchMark.testEnumValuesToMapGet  avgt   20   9.325 ± 0.240  ns/op
+EnumBenchMark.testValueOf             avgt   20  10.533 ± 0.766  ns/op
