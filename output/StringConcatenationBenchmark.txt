@@ -65,3 +65,13 @@ StringConcatenationBenchmark.stringConcat_ConcatStringConcat                    
 StringConcatenationBenchmark.stringConcat_ConcatStringJoin                           10              10  avgt   10   76.657 ± 0.327  ns/op
 StringConcatenationBenchmark.stringConcat_ConcatStringJoiner                         10              10  avgt   10   96.960 ± 3.255  ns/op
 StringConcatenationBenchmark.stringConcat_ConcatStringPlus                           10              10  avgt   10  102.950 ± 0.682  ns/op
+
+Ubuntu 22.04.2 LTS JDK 11 (Lenovo ThinkPad T590)
+Benchmark                                                                (stringLength)  (stringsCount)  Mode  Cnt    Score     Error  Units
+StringConcatenationBenchmark.stringConcat_ConcatStreamCollectorsJoining              10              10  avgt   10  404.766 ± 118.906  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringBuffer                         10              10  avgt   10  492.875 ± 154.943  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringBuilder                        10              10  avgt   10  234.950 ±  40.682  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringConcat                         10              10  avgt   10  486.876 ±  39.496  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringJoin                           10              10  avgt   10  268.024 ±   6.449  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringJoiner                         10              10  avgt   10  270.203 ±   9.333  ns/op
+StringConcatenationBenchmark.stringConcat_ConcatStringPlus                           10              10  avgt   10  294.710 ±  29.008  ns/op
