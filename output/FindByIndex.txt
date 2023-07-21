@@ -49,3 +49,20 @@ PluralFindIndexBenchMark.getIndexOfArray                       1000  avgt   10  
 PluralFindIndexBenchMark.getIndexOfMap                         1000  avgt   10   0.593 ±  0.008  us/op
 PluralFindIndexBenchMark.getIndexSortedArray                   1000  avgt   10   3.578 ±  2.662  us/op
 PluralFindIndexBenchMark.getIndexSortedWithThresholdArray      1000  avgt   10   3.387 ±  3.685  us/op
+
+Ubuntu 22.04.2 LTS JDK 11 (Lenovo ThinkPad T590)
+Benchmark                                                  (length)  Mode  Cnt   Score    Error  Units
+PluralFindIndexBenchMark.getIndexOfArray                         10  avgt   10   0.020 ±  0.017  us/op
+PluralFindIndexBenchMark.getIndexOfMap                           10  avgt   10   0.024 ±  0.016  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                     10  avgt   10   0.048 ±  0.053  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray        10  avgt   10   0.022 ±  0.035  us/op
+
+PluralFindIndexBenchMark.getIndexOfArray                        100  avgt   10   1.324 ±  0.802  us/op
+PluralFindIndexBenchMark.getIndexOfMap                          100  avgt   10   0.163 ±  0.227  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                    100  avgt   10   0.809 ±  0.314  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray       100  avgt   10   0.084 ±  0.038  us/op
+
+PluralFindIndexBenchMark.getIndexOfArray                       1000  avgt   10  30.393 ±  7.184  us/op
+PluralFindIndexBenchMark.getIndexOfMap                         1000  avgt   10   3.234 ±  0.582  us/op
+PluralFindIndexBenchMark.getIndexSortedArray                   1000  avgt   10  18.178 ±  4.667  us/op
+PluralFindIndexBenchMark.getIndexSortedWithThresholdArray      1000  avgt   10  16.516 ± 19.974  us/op
